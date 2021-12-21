@@ -6,6 +6,9 @@
 
 1. git pull med main, `$ git pull`
 2. Skapa egen branch och gör ändringar `$ git checkout -b <new-branch> `
+
+## OBS: Brancher ska heter som Issues
+
 3. Spara dina ändringar `$ git add .`
 4. Gör en commit `$ git commit -m “commit-name”`
 
@@ -19,6 +22,8 @@
 7. Checka ut till new-branch `$ git checkout new-branch`
 8. Merga main med egen branch `$ git merge main`
 9. Pusha upp din egen branch till GitHub `$ git push`
+
+### OBS:Länk pull request till varje issue
 
 ## Review code
 
@@ -36,22 +41,27 @@
 ## Css
 
 Css filer är komponentbaserade med modules
+
 KlassNamn ska ha beskrivande namn
+
 KlassNamn ska vara skrivna på engelska
 
 ## Variabler
 
 Variabler ska ha beskrivande namn
+
 Variabelnamn ska vara på engelska
 
 ## Kommentarer
 
 Kommentarer ska vara på engelska
+
 Kommentarer ska vara tydlig beskrivande
 
 ## Rent och Fint
 
 Utkommenderade kod ska tas bort innan man pushar till gitHub
+
 Alla filer ska vara formaterade innan man pushar
 
 ## Kiss
