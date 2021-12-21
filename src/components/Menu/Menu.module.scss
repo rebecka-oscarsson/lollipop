@@ -3,12 +3,59 @@
 @media (min-width: 480px) and (max-width: 768px) {
 }
 @media (max-width: 480px) {
-  .Menu {
-    text-align: right;
-  }
-  .line1,
-  .Line2,
-  .Line3 {
-    background-color: black;
-  }
+    .Menu {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+
+        .MenuOpen {
+            text-align: right;
+            background-color: rgba(0, 255, 255, 0.315);
+            border-bottom-left-radius: 50px;
+            text-align: center;
+
+            .MenuHeader {
+                text-decoration: underline;
+            }
+
+            .BokaBordBtn {
+                background-color: #79d1ca;
+                border: none;
+                border-radius: 12px;
+                padding: 18px 28px 18px 33px;
+                font-size: 24px;
+                color: white;
+                letter-spacing: 5px;
+
+                font-family: Roboto, sans-serif;
+            }
+        }
+
+        .MenuClosed {
+            display: flex;
+            justify-content: flex-end;
+
+            .MenuLines {
+                width: 30px;
+                height: 30px;
+
+                .LinesContainer {
+                    height: 100%;
+                    width: 100%;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .Line1,
+                    .Line2,
+                    .Line3 {
+                        height: 5px;
+                        width: 100%;
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
 }
