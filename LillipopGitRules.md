@@ -12,13 +12,13 @@
 
 ## Kolla så att main är uppdaterad
 
-5.Checka ut till masin $ git checkout master
-6.Pulla hem master igen (någon kan ha gjort en ändring) $ git pull
+5.Checka ut till masin $ git checkout main
+6.Pulla hem main igen (någon kan ha gjort en ändring) $ git pull
 
 ## Pusha till GitHub
 
 7.Checka ut till new-branch $ git checkout new-branch
-8.Merga master med egen branch $ git merge master
+8.Merga main med egen branch $ git merge main
 9.Pusha upp din egen branch till GitHub $ git push
 
 ## Review code
