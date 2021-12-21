@@ -1,8 +1,14 @@
-.Menu {
-  text-align: right;
+@media (min-width: 768px) {
 }
-.line1,
-.Line2,
-.Line3 {
-  background-color: black;
+@media (min-width: 480px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .Menu {
+    text-align: right;
+  }
+  .line1,
+  .Line2,
+  .Line3 {
+    background-color: black;
+  }
 }

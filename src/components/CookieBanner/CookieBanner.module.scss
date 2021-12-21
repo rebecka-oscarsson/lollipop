@@ -1,6 +1,12 @@
-.CookieBanner {
-  position: fixed;
-  bottom: 0;
-  background-color: grey;
-  width: 100%;
+@media (min-width: 768px) {
+  .CookieBanner {
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
 }
