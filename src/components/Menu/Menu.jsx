@@ -19,12 +19,12 @@ function Menu() {
                     </div>
                     <div>
                         <div className={styles.MenuHeader}>Meny</div>
-                        <div className={styles.MenuItem}>Om Oss </div>
-                        <div className={styles.MenuItem}>Våra rätter </div>
-                        <div className={styles.MenuItem}>Kontakt </div>
-                        <div className={styles.MenuItem}>Hitta till oss </div>
-                        <div className={styles.MenuItem}>Catering </div>
-                        <div className={styles.MenuItem}>Take Away </div>
+                        <div className={styles.MenuItem}>Om Oss</div>
+                        <div className={styles.MenuItem}>Våra rätter</div>
+                        <div className={styles.MenuItem}>Kontakt</div>
+                        <div className={styles.MenuItem}>Hitta till oss</div>
+                        <div className={styles.MenuItem}>Catering</div>
+                        <div className={styles.MenuItem}>Take Away</div>
                         <button className={styles.BokaBordBtn}>
                             Boka bord
                         </button>
