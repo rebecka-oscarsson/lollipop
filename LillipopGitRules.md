@@ -10,9 +10,9 @@
 4.Spara dina ändringar $ git add .
 5.Gör en commit $ git commit -m “commit-name”
 
-## Kolla så att master är uppdaterad
+## Kolla så att main är uppdaterad
 
-5.Checka ut till master $ git checkout master
+5.Checka ut till masin $ git checkout master
 6.Pulla hem master igen (någon kan ha gjort en ändring) $ git pull
 
 ## Pusha till GitHub
