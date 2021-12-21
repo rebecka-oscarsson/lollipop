@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Menu.module.scss';
 
 function Menu() {
-    const [menuOpen, setMenuOpen] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <div className={styles.Menu}>
