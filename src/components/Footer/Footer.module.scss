@@ -1,13 +1,19 @@
-.Footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  background-color: pink;
+@media (min-width: 768px) {
 }
-.Adress,
-.Hours,
-.NewsLetter,
-.Logo {
-  margin: auto;
+@media (min-width: 480px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: pink;
+  }
+  .Adress,
+  .Hours,
+  .NewsLetter,
+  .Logo {
+    margin: auto;
+  }
 }
