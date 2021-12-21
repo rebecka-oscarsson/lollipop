@@ -25,6 +25,7 @@
             margin: 32px 0;
             &:hover {
                 color: red;
+                cursor: pointer;
             }
         }
 
@@ -37,6 +38,18 @@
             color: white;
             letter-spacing: 5px;
             margin-bottom: 50px;
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+                background-color: #afe3df;
+            }
+
+            &:active {
+                cursor: pointer;
+                text-decoration: none;
+                background-color: rgba(112, 112, 112, 0.64);
+            }
         }
 
         .MenuLinesOpen {
