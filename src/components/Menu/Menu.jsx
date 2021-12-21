@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Menu.module.scss';
+
 function Menu() {
     const [menuOpen, setMenuOpen] = useState(true);
 
@@ -7,15 +8,23 @@ function Menu() {
         <div className={styles.Menu}>
             {menuOpen ? (
                 <div className={styles.MenuOpen}>
-                    <div onClick={() => setMenuOpen(false)}>Close menu</div>
+                    <div
+                        className={styles.MenuLinesOpen}
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        <div className={styles.LinesContainerOpen}>
+                            <div className={styles.LineOpen1}></div>
+                            <div className={styles.LineOpen2}></div>
+                        </div>
+                    </div>
                     <div>
-                        <div className={styles.MenuHeader}>Menu</div>
-                        Om Oss <br />
-                        Våra rätter <br />
-                        Kontakt <br />
-                        Hitta till oss <br />
-                        Catering <br />
-                        Take Away <br />
+                        <div className={styles.MenuHeader}>Meny</div>
+                        <div className={styles.MenuItem}>Om Oss </div>
+                        <div className={styles.MenuItem}>Våra rätter </div>
+                        <div className={styles.MenuItem}>Kontakt </div>
+                        <div className={styles.MenuItem}>Hitta till oss </div>
+                        <div className={styles.MenuItem}>Catering </div>
+                        <div className={styles.MenuItem}>Take Away </div>
                         <button className={styles.BokaBordBtn}>
                             Boka bord
                         </button>
@@ -24,13 +33,13 @@ function Menu() {
             ) : (
                 <div className={styles.MenuClosed}>
                     <div
-                        className={styles.MenuLines}
+                        className={styles.MenuLinesClosed}
                         onClick={() => setMenuOpen(true)}
                     >
-                        <div className={styles.LinesContainer}>
-                            <div className={styles.Line1}></div>
-                            <div className={styles.Line2}></div>
-                            <div className={styles.Line3}></div>
+                        <div className={styles.LinesContainerClosed}>
+                            <div className={styles.LineClosed1}></div>
+                            <div className={styles.LineClosed2}></div>
+                            <div className={styles.LineClosed3}></div>
                         </div>
                     </div>
                 </div>

@@ -8,14 +8,26 @@
         position: fixed;
         top: 0;
 
+        overflow-y: visible;
+
         .MenuOpen {
-            text-align: right;
             background-color: rgba(0, 255, 255, 0.315);
             border-bottom-left-radius: 50px;
             text-align: center;
 
+            color: white;
+            font-size: 48px;
+            font-family: Roboto, sans-serif;
+
             .MenuHeader {
                 text-decoration: underline;
+            }
+
+            .MenuItem {
+                margin: 32px 0;
+                &:hover {
+                    color: red;
+                }
             }
 
             .BokaBordBtn {
@@ -26,8 +38,35 @@
                 font-size: 24px;
                 color: white;
                 letter-spacing: 5px;
+            }
 
-                font-family: Roboto, sans-serif;
+            .MenuLinesOpen {
+                width: 100%;
+                height: 25px;
+
+                &:hover {
+                    .LineOpen1,
+                    .LineOpen2 {
+                        background-color: red;
+                    }
+                }
+                .LineOpen1,
+                .LineOpen2 {
+                    width: 50px;
+                    height: 5px;
+                    position: fixed;
+                    top: 25px;
+                    right: 5px;
+                    background-color: black;
+                }
+
+                .LineOpen1 {
+                    transform: rotate(45deg);
+                }
+
+                .LineOpen2 {
+                    transform: rotate(-45deg);
+                }
             }
         }
 
@@ -35,11 +74,11 @@
             display: flex;
             justify-content: flex-end;
 
-            .MenuLines {
+            .MenuLinesClosed {
                 width: 30px;
                 height: 30px;
 
-                .LinesContainer {
+                .LinesContainerClosed {
                     height: 100%;
                     width: 100%;
 
@@ -47,9 +86,9 @@
                     flex-direction: column;
                     justify-content: space-between;
 
-                    .Line1,
-                    .Line2,
-                    .Line3 {
+                    .LineClosed1,
+                    .LineClosed2,
+                    .LineClosed3 {
                         height: 5px;
                         width: 100%;
                         background-color: black;
