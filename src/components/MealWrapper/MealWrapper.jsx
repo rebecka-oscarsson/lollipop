@@ -9,7 +9,7 @@ function MealWrapper() {
                     <img
                         className={styles.MealCardPic}
                         src={foodPhoto}
-                        alt="pic"
+                        alt="Ohana Bowl"
                     />
                 </div>
                 <div className={styles.MealCardTextContainer}>
@@ -28,7 +28,7 @@ function MealWrapper() {
                     <img
                         className={styles.MealCardPic}
                         src={foodPhoto}
-                        alt="pic"
+                        alt="Opae Bowl"
                     />
                 </div>
                 <div className={styles.MealCardTextContainer}>
@@ -47,7 +47,7 @@ function MealWrapper() {
                     <img
                         className={styles.MealCardPic}
                         src={foodPhoto}
-                        alt="pic"
+                        alt="Kamalii Bowl"
                     />
                 </div>
                 <div className={styles.MealCardTextContainer}>
