@@ -1,5 +1,5 @@
 .Menu {
-    width: 280px;
+    width: 100vw;
 
     position: fixed;
     top: 0;
@@ -110,8 +110,8 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .Menu {
-        width: 100vw;
+        width: 280px;
     }
 }
