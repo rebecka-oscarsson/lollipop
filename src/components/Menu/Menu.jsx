@@ -18,15 +18,17 @@ function Menu() {
                             <div className={styles.LineOpen2}></div>
                         </div>
                     </div>
-                    <ul>
-                        <li className={styles.MenuHeader}>Meny</li>
-                        <li className={styles.MenuItem}>Om Oss</li>
-                        <li className={styles.MenuItem}>Våra rätter</li>
-                        <li className={styles.MenuItem}>Kontakt</li>
-                        <li className={styles.MenuItem}>Hitta till oss</li>
-                        <li className={styles.MenuItem}>Catering</li>
-                        <li className={styles.MenuItem}>Take Away</li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li className={styles.MenuHeader}>Meny</li>
+                            <li className={styles.MenuItem}>Om Oss</li>
+                            <li className={styles.MenuItem}>Våra rätter</li>
+                            <li className={styles.MenuItem}>Kontakt</li>
+                            <li className={styles.MenuItem}>Hitta till oss</li>
+                            <li className={styles.MenuItem}>Catering</li>
+                            <li className={styles.MenuItem}>Take Away</li>
+                        </ul>
+                    </nav>
                     <button className={styles.BookTableBtn}>Boka bord</button>
                 </div>
             ) : (
