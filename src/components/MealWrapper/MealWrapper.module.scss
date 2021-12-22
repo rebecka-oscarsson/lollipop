@@ -18,9 +18,7 @@
     .MealCard2,
     .MealCard3 {
         color: black;
-        .MealCardPic1,
-        .MealCardPic2,
-        .MealCardPic3 {
+        .MealCardPic {
             width: 180px;
             height: 180px;
             clip-path: circle(44%);
@@ -29,25 +27,17 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .MealCardTextContainer1,
-        .MealCardTextContainer2,
-        .MealCardTextContainer3 {
+        .MealCardTextContainer {
             text-align: center;
-            .MealCardHeader1,
-            .MealCardHeader2,
-            .MealCardHeader3 {
+            .MealCardHeader {
                 margin-top: 0px;
             }
-            .MealCardText1,
-            .MealCardText2,
-            .MealCardText3 {
+            .MealCardText {
                 margin-bottom: 0px;
                 margin-top: 0px;
                 line-height: 20px;
             }
-            .MealCardPris1,
-            .MealCardPris2,
-            .MealCardPris3 {
+            .MealCardPris {
                 color: #e34342;
             }
         }

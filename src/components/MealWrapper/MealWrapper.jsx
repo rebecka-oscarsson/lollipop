@@ -5,60 +5,60 @@ function MealWrapper() {
         <div className={styles.MealWrapper}>
             <h1 className={styles.MealwrapparHeader}>FAVORITER</h1>
             <div className={styles.MealCard1}>
-                <div className={styles.MealCardPicContainer1}>
+                <div className={styles.MealCardPicContainer}>
                     <img
-                        className={styles.MealCardPic1}
+                        className={styles.MealCardPic}
                         src={foodPhoto}
                         alt="pic"
                     />
                 </div>
-                <div className={styles.MealCardTextContainer1}>
-                    <h3 className={styles.MealCardHeader1}>OHANA BOWL</h3>
-                    <p className={styles.MealCardText1}>
+                <div className={styles.MealCardTextContainer}>
+                    <h3 className={styles.MealCardHeade}>OHANA BOWL</h3>
+                    <p className={styles.MealCardText}>
                         Ris,lax,gurka,edamame,böner,mango
                     </p>
-                    <p className={styles.MealCardText1}>
+                    <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris1}>120 kr</h2>
+                    <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
             <div className={styles.MealCard2}>
-                <div className={styles.MealCardPicContainer2}>
+                <div className={styles.MealCardPicContainer}>
                     <img
-                        className={styles.MealCardPic2}
+                        className={styles.MealCardPic}
                         src={foodPhoto}
                         alt="pic"
                     />
                 </div>
-                <div className={styles.MealCardTextContainer2}>
+                <div className={styles.MealCardTextContainer}>
                     <h3 className={styles.MealCardHeader2}>OPAE BOWL</h3>
-                    <p className={styles.MealCardText2}>
+                    <p className={styles.MealCardText}>
                         Ris,lax,gurka,edamame,böner,mango
                     </p>
-                    <p className={styles.MealCardText2}>
+                    <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris2}>120 kr</h2>
+                    <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
             <div className={styles.MealCard3}>
-                <div className={styles.MealCardPicContainer3}>
+                <div className={styles.MealCardPicContainer}>
                     <img
-                        className={styles.MealCardPic3}
+                        className={styles.MealCardPic}
                         src={foodPhoto}
                         alt="pic"
                     />
                 </div>
-                <div className={styles.MealCardTextContainer3}>
-                    <h3 className={styles.MealCardHeader3}>KAMALII BOWL</h3>
-                    <p className={styles.MealCardText3}>
+                <div className={styles.MealCardTextContainer}>
+                    <h3 className={styles.MealCardHeader}>KAMALII BOWL</h3>
+                    <p className={styles.MealCardText}>
                         Ris,lax,gurka,edamame,böner,mango
                     </p>
-                    <p className={styles.MealCardText3}>
+                    <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris3}>120 kr</h2>
+                    <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
         </div>
