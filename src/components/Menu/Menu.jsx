@@ -25,7 +25,7 @@ function Menu() {
                         <div className={styles.MenuItem}>Hitta till oss</div>
                         <div className={styles.MenuItem}>Catering</div>
                         <div className={styles.MenuItem}>Take Away</div>
-                        <button className={styles.BokaBordBtn}>
+                        <button className={styles.BookTableBtn}>
                             Boka bord
                         </button>
                     </div>
