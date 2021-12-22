@@ -14,7 +14,7 @@ function LandingPage() {
           media="(min-width:481px)"
           srcSet={logo}
         />
-        <img src={logo} alt="company logo" />
+        <img src={logo} alt="poké queen logo" />
       </picture>
       <h2>Om du vill vara trendig - och äta gott!</h2>
       <h1>Grand Opening 23/12</h1>
