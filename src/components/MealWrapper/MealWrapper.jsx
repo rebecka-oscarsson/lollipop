@@ -13,7 +13,7 @@ function MealWrapper() {
           <p className={styles.MealCardText1}>
             Ris,lax,gurka,edamame,böner,mango
           </p>
-          <p>Toppad med chilimajnäs.</p>
+          <p className={styles.MealCardText1}>Toppad med chilimajnäs.</p>
           <h2 className={styles.MealCardPris1}>120 kr</h2>
         </div>
       </div>
@@ -26,7 +26,7 @@ function MealWrapper() {
           <p className={styles.MealCardText2}>
             Ris,lax,gurka,edamame,böner,mango
           </p>
-          <p>Toppad med chilimajnäs.</p>
+          <p className={styles.MealCardText2}>Toppad med chilimajnäs.</p>
           <h2 className={styles.MealCardPris2}>120 kr</h2>
         </div>
       </div>
@@ -39,7 +39,7 @@ function MealWrapper() {
           <p className={styles.MealCardText3}>
             Ris,lax,gurka,edamame,böner,mango
           </p>
-          <p>Toppad med chilimajnäs.</p>
+          <p className={styles.MealCardText3}>Toppad med chilimajnäs.</p>
           <h2 className={styles.MealCardPris3}>120 kr</h2>
         </div>
       </div>
