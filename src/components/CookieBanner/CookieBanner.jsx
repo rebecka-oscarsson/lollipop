@@ -1,6 +1,6 @@
-import styles from "./CookieBanner.module.scss";
+import styles from './CookieBanner.module.scss'
 function CookieBanner() {
-  return <div className={styles.CookieBanner}>CookieBanner</div>;
+    return <div className={styles.CookieBanner}>CookieBanner</div>
 }
 
-export default CookieBanner;
+export default CookieBanner
