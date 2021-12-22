@@ -1,10 +1,5 @@
 //color variables
 $primary: #e3afb3;
-$secondary: #e34342;
-$accent: #79d1ca;
-$darkgrey: rgba(0, 0, 0, 0.78);
-$grey: #707070;
-$lightgrey: #c3c3c3;
 
 //mobile
 .LandingPage {
@@ -13,6 +8,9 @@ $lightgrey: #c3c3c3;
   background-color: $primary;
   h2 {
     display: none;
+  }
+  .arrow {
+    display: block;
   }
 }
 
