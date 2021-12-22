@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useCallback } from 'react/cjs/react.production.min';
 import styles from './Menu.module.scss';
 
 function Menu() {
