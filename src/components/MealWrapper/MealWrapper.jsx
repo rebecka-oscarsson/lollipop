@@ -2,9 +2,9 @@ import styles from './MealWrapper.module.scss'
 import foodPhoto from '../../images/foodPhoto.jpg'
 function MealWrapper() {
     return (
-        <div className={styles.MealWrapper}>
+        <section className={styles.MealWrapper}>
             <h2 className={styles.MealwrapparHeader}>FAVORITER</h2>
-            <div className={styles.MealCard1}>
+            <div className={styles.MealCard}>
                 <div className={styles.MealCardPicContainer}>
                     <img
                         className={styles.MealCardPic}
@@ -23,7 +23,7 @@ function MealWrapper() {
                     <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
-            <div className={styles.MealCard2}>
+            <div className={styles.MealCard}>
                 <div className={styles.MealCardPicContainer}>
                     <img
                         className={styles.MealCardPic}
@@ -42,7 +42,7 @@ function MealWrapper() {
                     <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
-            <div className={styles.MealCard3}>
+            <div className={styles.MealCard}>
                 <div className={styles.MealCardPicContainer}>
                     <img
                         className={styles.MealCardPic}
@@ -61,7 +61,7 @@ function MealWrapper() {
                     <h2 className={styles.MealCardPris}>120 kr</h2>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
