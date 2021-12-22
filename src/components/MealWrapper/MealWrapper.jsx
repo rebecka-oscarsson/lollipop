@@ -15,7 +15,7 @@ function MealWrapper() {
                 <div className={styles.MealCardTextContainer}>
                     <h3 className={styles.MealCardHeade}>OHANA BOWL</h3>
                     <p className={styles.MealCardText}>
-                        Ris,lax,gurka,edamame,böner,mango
+                        Ris, lax, gurka, edamame, bönor, mango{' '}
                     </p>
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
@@ -34,7 +34,7 @@ function MealWrapper() {
                 <div className={styles.MealCardTextContainer}>
                     <h3 className={styles.MealCardHeader2}>OPAE BOWL</h3>
                     <p className={styles.MealCardText}>
-                        Ris,lax,gurka,edamame,böner,mango
+                        Ris, lax, gurka, edamame, bönor, mango
                     </p>
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
@@ -53,7 +53,7 @@ function MealWrapper() {
                 <div className={styles.MealCardTextContainer}>
                     <h3 className={styles.MealCardHeader}>KAMALII BOWL</h3>
                     <p className={styles.MealCardText}>
-                        Ris,lax,gurka,edamame,böner,mango
+                        Ris, lax, gurka, edamame, bönor, mango{' '}
                     </p>
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
