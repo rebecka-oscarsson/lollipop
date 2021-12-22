@@ -3,7 +3,7 @@ import foodPhoto from '../../images/foodPhoto.jpg'
 function MealWrapper() {
     return (
         <section className={styles.MealWrapper}>
-            <h2 className={styles.MealwrapparHeader}>FAVORITER</h2>
+            <h2 className={styles.MealwrapparHeader}>Favoriter</h2>
             <div className={styles.MealCard}>
                 <div className={styles.MealCardPicContainer}>
                     <img
@@ -39,7 +39,7 @@ function MealWrapper() {
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <p className={styles.MealCardPris}>120 kr</p>
+                    <p className={styles.MealCardPrice}>120 kr</p>
                 </div>
             </div>
             <div className={styles.MealCard}>

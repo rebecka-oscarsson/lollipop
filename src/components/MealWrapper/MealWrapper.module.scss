@@ -13,6 +13,7 @@
     .MealwrapparHeader {
         color: #e34342;
         text-align: center;
+        text-transform: uppercase;
     }
     .MealCard {
         color: black;
@@ -35,7 +36,7 @@
                 margin-top: 0px;
                 line-height: 20px;
             }
-            .MealCardPris {
+            .MealCardPrice {
                 color: #e34342;
                 font-weight: bold;
             }
