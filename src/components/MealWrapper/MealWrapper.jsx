@@ -1,6 +1,5 @@
 import styles from "./MealWrapper.module.scss";
-import foodPhoto from "../images/foodPhoto.jpg";
-import pokequeenwallpaper from "../images/pokequeenwallpaper.png";
+import foodPhoto from "../../images/foodPhoto.jpg";
 function MealWrapper() {
   return (
     <div className={styles.MealWrapper}>
