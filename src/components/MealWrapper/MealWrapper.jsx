@@ -20,7 +20,7 @@ function MealWrapper() {
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris}>120 kr</h2>
+                    <p className={styles.MealCardPris}>120 kr</p>
                 </div>
             </div>
             <div className={styles.MealCard}>
@@ -39,7 +39,7 @@ function MealWrapper() {
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris}>120 kr</h2>
+                    <p className={styles.MealCardPris}>120 kr</p>
                 </div>
             </div>
             <div className={styles.MealCard}>
@@ -58,7 +58,7 @@ function MealWrapper() {
                     <p className={styles.MealCardText}>
                         Toppad med chilimajnäs.
                     </p>
-                    <h2 className={styles.MealCardPris}>120 kr</h2>
+                    <p className={styles.MealCardPris}>120 kr</p>
                 </div>
             </div>
         </section>
