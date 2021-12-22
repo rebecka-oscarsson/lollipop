@@ -16,12 +16,20 @@
         font-size: 32px;
         font-family: Roboto, sans-serif;
 
+        ul,
+        li {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
         .MenuHeader {
             text-decoration: underline;
+            list-style: none;
         }
 
         .MenuItem {
             margin: 32px 0;
+            list-style: none;
             &:hover {
                 color: red;
                 cursor: pointer;

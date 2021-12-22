@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useCallback } from 'react/cjs/react.production.min';
 import styles from './Menu.module.scss';
 
 function Menu() {
@@ -17,18 +18,16 @@ function Menu() {
                             <div className={styles.LineOpen2}></div>
                         </div>
                     </div>
-                    <div>
-                        <div className={styles.MenuHeader}>Meny</div>
-                        <div className={styles.MenuItem}>Om Oss</div>
-                        <div className={styles.MenuItem}>Våra rätter</div>
-                        <div className={styles.MenuItem}>Kontakt</div>
-                        <div className={styles.MenuItem}>Hitta till oss</div>
-                        <div className={styles.MenuItem}>Catering</div>
-                        <div className={styles.MenuItem}>Take Away</div>
-                        <button className={styles.BookTableBtn}>
-                            Boka bord
-                        </button>
-                    </div>
+                    <ul>
+                        <li className={styles.MenuHeader}>Meny</li>
+                        <li className={styles.MenuItem}>Om Oss</li>
+                        <li className={styles.MenuItem}>Våra rätter</li>
+                        <li className={styles.MenuItem}>Kontakt</li>
+                        <li className={styles.MenuItem}>Hitta till oss</li>
+                        <li className={styles.MenuItem}>Catering</li>
+                        <li className={styles.MenuItem}>Take Away</li>
+                    </ul>
+                    <button className={styles.BookTableBtn}>Boka bord</button>
                 </div>
             ) : (
                 <div className={styles.MenuClosed}>
