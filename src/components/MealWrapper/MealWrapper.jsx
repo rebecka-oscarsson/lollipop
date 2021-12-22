@@ -3,7 +3,7 @@ import foodPhoto from "../../images/foodPhoto.jpg";
 function MealWrapper() {
   return (
     <div className={styles.MealWrapper}>
-      <h2 className={styles.MealwrapparHeader}>Favoriter</h2>
+      <h1 className={styles.MealwrapparHeader}>FAVORITER</h1>
       <div className={styles.MealCard1}>
         <div className={styles.MealCardPicContainer1}>
           <img className={styles.MealCardPic1} src={foodPhoto} alt="pic" />
