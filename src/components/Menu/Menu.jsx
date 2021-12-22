@@ -8,14 +8,16 @@ function Menu() {
         <div className={styles.Menu}>
             {menuOpen ? (
                 <div className={styles.MenuOpen}>
-                    <div
-                        className={styles.MenuLinesOpen}
-                        onClick={() => setMenuOpen(false)}
-                    >
-                        <div className={styles.LinesContainerOpen}>
-                            <div className={styles.LineOpen1}></div>
-                            <div className={styles.LineOpen2}></div>
-                        </div>
+                    <div className={styles.ButtonWrapper}>
+                        <button
+                            className={styles.MenuLinesOpen}
+                            onClick={() => setMenuOpen(false)}
+                        >
+                            <div className={styles.LinesContainerOpen}>
+                                <div className={styles.LineOpen1}></div>
+                                <div className={styles.LineOpen2}></div>
+                            </div>
+                        </button>
                     </div>
                     <nav>
                         <ul>
@@ -32,7 +34,7 @@ function Menu() {
                 </div>
             ) : (
                 <div className={styles.MenuClosed}>
-                    <div
+                    <button
                         className={styles.MenuLinesClosed}
                         onClick={() => setMenuOpen(true)}
                     >
@@ -41,7 +43,7 @@ function Menu() {
                             <div className={styles.LineClosed2}></div>
                             <div className={styles.LineClosed3}></div>
                         </div>
-                    </div>
+                    </button>
                 </div>
             )}
         </div>
