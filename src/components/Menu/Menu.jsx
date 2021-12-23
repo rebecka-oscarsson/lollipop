@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import styles from './Menu.module.scss';
+import { useState } from 'react'
+import styles from './Menu.module.scss'
 
 function Menu() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false)
 
     return (
         <div className={styles.Menu}>
@@ -47,7 +47,7 @@ function Menu() {
                 </div>
             )}
         </div>
-    );
+    )
 }
 
-export default Menu;
+export default Menu
