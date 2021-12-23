@@ -3,7 +3,8 @@
 //mobile
 .LandingPage {
     padding: 50px 25px 50px 25px;
-    min-height: 100vh; //den blir högre än skärmen, varför? (pga extra verktygsfält?)
+    min-height: 100vh;
+    box-sizing: border-box;
     background-color: $primary;
     display: flex;
     flex-direction: column;
