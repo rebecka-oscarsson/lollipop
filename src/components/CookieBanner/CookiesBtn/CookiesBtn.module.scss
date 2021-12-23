@@ -1,0 +1,29 @@
+@import './../../../variables.modules.scss';
+
+// Same styles apply to all screen sizes
+.CookiesBtn {
+    // Reset btn-styles
+    border: none;
+
+    // Add general styles
+    font-family: $font-family-everywhere;
+    text-transform: capitalize;
+    background-color: $accent;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 35px 16px 23px;
+    cursor: pointer;
+
+    // Mobiles specific styles
+    font-size: $cookie-btn-font-size;
+
+    &:hover {
+        text-decoration: underline;
+        background-color: $btn-hover;
+    }
+
+    &:active {
+        text-decoration: none;
+        background-color: $btn-active;
+    }
+}
