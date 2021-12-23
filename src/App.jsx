@@ -1,4 +1,5 @@
 import './App.css';
+import './normalize.css';
 
 import LandingPage from './components/LandingPage/LandingPage';
 import MealWrapper from './components/MealWrapper/MealWrapper';
