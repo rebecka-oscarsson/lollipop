@@ -9,6 +9,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    clip-path: url(#tablet-or-mobile);
+    background-image: url(../../images/pokebowl.png);
+    background-repeat: no-repeat;
+    background-position: left -20vw top 50vh;
+    background-size: 130vw;
     * {
         flex-basis: 0;
         text-align: center;
@@ -46,8 +51,11 @@
 }
 
 //tablet
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 1024px) and (orientation: portrait) {
     .LandingPage {
+        background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
+        background-position: left -10vw bottom -5vh, right -5vw bottom -5vh;
+        background-size: 60vw, 55vw;
         h2 {
             display: block;
         }
@@ -55,9 +63,13 @@
 }
 
 //desktop
-@media (min-width: 769px) {
+@media (min-width: 769px) and (orientation: landscape) {
     .LandingPage {
         justify-content: flex-end;
+        clip-path: url(#desktop);
+        background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
+        background-position: left -10vw bottom -5vh, right -5vw bottom -5vh;
+        background-size: auto 50vh, auto 90vh;
         header {
             flex-grow: 3;
             margin-bottom: auto; //this pushes the header to the top of the page
