@@ -1,0 +1,64 @@
+@import './variables.modules.scss';
+
+//mobile & general
+
+body {
+    font-family: $font-family-everywhere;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: $secondary;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color: $secondary;
+}
+
+.primary-btn {
+    background-color: $accent;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 28px 18px 33px;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 5px;
+    box-shadow: 3px 3px 10px -3px $darkgrey;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        background-color: #afe3df;
+    }
+
+    &:active {
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgba(112, 112, 112, 0.64);
+    }
+}
+
+//tablet
+
+@media (min-width: 480px) and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+//desktop
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 96px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+}

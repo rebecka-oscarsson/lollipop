@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import LandingPage from './components/LandingPage/LandingPage';
 import MealWrapper from './components/MealWrapper/MealWrapper';
