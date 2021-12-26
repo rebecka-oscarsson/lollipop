@@ -28,12 +28,25 @@ function LandingPage() {
                 <button className="primary-btn">boka nu</button>
             </section>
             <div className={styles.arrowContainer}>
-            <img
-                src={arrow}
-                className={styles.arrow}
-                alt="arrow pointing down"
-            />
+                <img
+                    src={arrow}
+                    className={styles.arrow}
+                    alt="arrow pointing down"
+                />
             </div>
+            <svg width="0" height="0">
+                <defs>
+                    <clipPath id="desktop" clipPathUnits="objectBoundingBox">
+                        <path d="m 0,0 0.00390625,0.9453125 c 0,0 0.17125052,0.0744347 0.47460938,0.0449219 C 0.89124947,0.93766195 1.0078125,0.96875 1.0078125,0.96875 L 1,0 Z" />
+                    </clipPath>
+                    <clipPath
+                        id="tablet-or-mobile"
+                        clipPathUnits="objectBoundingBox"
+                    >
+                        <path d="m 0,0 v 0.96875 c 0,0 0.17515677,0.0509972 0.47851563,0.0214844 0.41273384,-0.0252287 0.52929687,-0.001953 0.52929687,-0.001953 L 1,0 Z" />
+                    </clipPath>
+                </defs>
+            </svg>
         </section>
     )
 }
