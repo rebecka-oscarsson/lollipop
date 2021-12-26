@@ -24,7 +24,7 @@
     header {
         flex-grow: 1;
         img {
-            width: 83vw; //det här är loggan. är det rätt att jag stylar img-tag? picture funkar ej?
+            max-width: 83vw; //det här är loggan. är det rätt att jag stylar img-tag? picture funkar ej?
         }
     }
     .promotionText {
@@ -62,7 +62,7 @@
             flex-grow: 3;
             margin-bottom: auto; //this pushes the header to the top of the page
             img {
-                width: 70vw;
+                max-width: 70vw;
             }
         }
         .promotionText {
