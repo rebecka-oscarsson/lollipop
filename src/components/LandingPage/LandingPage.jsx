@@ -31,7 +31,7 @@ function LandingPage() {
                 <img
                     src={arrow}
                     className={styles.arrow}
-                    alt="arrow pointing down"
+                    alt="pil nedåt"
                 />
             </div>
             <svg width="0" height="0"> {/*this svg is not visible but its paths are used to clip in css*/}
