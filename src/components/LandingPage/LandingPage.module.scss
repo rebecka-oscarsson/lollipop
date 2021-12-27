@@ -3,7 +3,7 @@
 //mobile
 .LandingPage {
     padding: 50px 15px 50px 15px;
-    min-height: 102vh;
+    min-height: 105vh;
     box-sizing: border-box;
     background-color: $primary;
     display: flex;
@@ -29,7 +29,7 @@
     header {
         flex-grow: 1;
         img {
-            max-width: 83vw; //det här är loggan. är det rätt att jag stylar img-tag? picture funkar ej?
+            max-width: 83vw;
         }
     }
     .promotionText {
@@ -37,7 +37,7 @@
     }
     .arrow {
         height: 50px;
-        margin: 16px 0 5vh 0;
+        margin-top: 16px;
     }
     .arrowContainer {
         flex-grow: 2;
@@ -51,7 +51,7 @@
 }
 
 //tablet
-@media (min-width: 480px) and (orientation: portrait) { //jag blev tvungen att lägga till orientation för bakgrundsbilder
+@media (min-width: 480px) and (orientation: portrait) {
     .LandingPage {
         background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
         background-position: left -10vw bottom -8vh, right -5vw bottom -8vh;
@@ -59,13 +59,16 @@
         h2 {
             display: block;
         }
+        .arrow {
+            margin-bottom: 4vh;
+        }
     }
 }
 
 //desktop
 @media (min-width: 768px) and (orientation: landscape) {
     .LandingPage {
-        min-height: 105vh;
+        min-height: 111vh;
         justify-content: flex-end;
         clip-path: url(#desktop);
         background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
@@ -83,6 +86,9 @@
         }
         h2 {
             display: block;
+        }
+        .arrow {
+            margin-bottom: 10vh;
         }
         .arrowContainer {
             flex-grow: 0.5;
