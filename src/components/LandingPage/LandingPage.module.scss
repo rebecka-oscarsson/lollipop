@@ -2,8 +2,8 @@
 
 //mobile
 .LandingPage {
-    padding: 50px 25px 50px 25px;
-    min-height: 100vh;
+    padding: 50px 15px 50px 15px;
+    min-height: 102vh;
     box-sizing: border-box;
     background-color: $primary;
     display: flex;
@@ -37,7 +37,7 @@
     }
     .arrow {
         height: 50px;
-        margin: 16px;
+        margin: 16px 0 5vh 0;
     }
     .arrowContainer {
         flex-grow: 2;
@@ -51,11 +51,11 @@
 }
 
 //tablet
-@media (min-width: 480px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 480px) and (orientation: portrait) { //jag blev tvungen att lägga till orientation för bakgrundsbilder
     .LandingPage {
         background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
-        background-position: left -10vw bottom -5vh, right -5vw bottom -5vh;
-        background-size: 60vw, 55vw;
+        background-position: left -10vw bottom -8vh, right -5vw bottom -8vh;
+        background-size: 63vw, 58vw;
         h2 {
             display: block;
         }
@@ -63,12 +63,13 @@
 }
 
 //desktop
-@media (min-width: 769px) and (orientation: landscape) {
+@media (min-width: 768px) and (orientation: landscape) {
     .LandingPage {
+        min-height: 105vh;
         justify-content: flex-end;
         clip-path: url(#desktop);
         background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
-        background-position: left -10vw bottom -5vh, right -5vw bottom -5vh;
+        background-position: left -6vw bottom -4vh, right -3vw bottom -5vh;
         background-size: auto 50vh, auto 90vh;
         header {
             flex-grow: 3;
