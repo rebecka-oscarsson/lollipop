@@ -20,7 +20,6 @@ function LandingPage() {
                         srcSet={logo}
                     />
                     <img src={logoFallback} alt="poké queen logo" />
-                    {/*//den här ska jag byta ut mot en png-bild för gamla browsers*/}
                 </picture>
                 <h2>Om du vill vara trendig - och äta gott!</h2>
             </header>
@@ -35,7 +34,7 @@ function LandingPage() {
                     alt="arrow pointing down"
                 />
             </div>
-            <svg width="0" height="0">
+            <svg width="0" height="0"> {/*this svg is not visible but its paths are used to clip in css*/}
                 <defs>
                     <clipPath id="desktop" clipPathUnits="objectBoundingBox">
                         <path d="M 0,0 3.972864e-4,0.91065274 C 0.33151178,1.1046347 0.43093849,0.9209222 0.99845907,0.93019465 L 1,0.00116994 Z" />
