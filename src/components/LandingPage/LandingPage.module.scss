@@ -1,13 +1,34 @@
-//color variables
-$primary: #e3afb3;
+@import '../../variables.modules.scss';
 
 //mobile
 .LandingPage {
+    padding: 50px 25px 50px 25px;
     min-height: 100vh;
-    width: 100%;
+    box-sizing: border-box;
     background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    * {
+        flex-basis: 0;
+        text-align: center;
+    }
     h2 {
         display: none;
+        font-weight: normal;
+        margin: 0;
+    }
+    h1 {
+        margin: 0 0.3em 0.3em 0;
+    }
+    header {
+        flex-grow: 1;
+        img {
+            max-width: 83vw; //det här är loggan. är det rätt att jag stylar img-tag? picture funkar ej?
+        }
+    }
+    .promotionText {
+        flex-grow: 1;
     }
 
     @keyframes bounce {
@@ -29,6 +50,17 @@ $primary: #e3afb3;
         display: block;
 
         animation: bounce 2s ease-in-out infinite;
+        height: 50px;
+        margin: 16px;
+    }
+    .arrowContainer {
+        flex-grow: 2;
+        display: flex;
+        align-items: flex-end;
+    }
+    button {
+        text-transform: uppercase;
+        margin-bottom: 1em;
     }
 }
 
@@ -42,10 +74,24 @@ $primary: #e3afb3;
 }
 
 //desktop
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .LandingPage {
+        justify-content: flex-end;
+        header {
+            flex-grow: 3;
+            margin-bottom: auto; //this pushes the header to the top of the page
+            img {
+                max-width: 70vw;
+            }
+        }
+        .promotionText {
+            flex-grow: 1;
+        }
         h2 {
             display: block;
+        }
+        .arrowContainer {
+            flex-grow: 0.5;
         }
     }
 }
