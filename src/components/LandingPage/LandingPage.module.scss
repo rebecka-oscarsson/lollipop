@@ -35,7 +35,24 @@
     .promotionText {
         flex-grow: 1;
     }
+
+    @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-60px);
+        }
+        60% {
+            transform: translateY(-40px);
+        }
+    }
     .arrow {
+        animation: bounce 2s ease-in-out infinite;
         height: 50px;
         margin-top: 16px;
     }
