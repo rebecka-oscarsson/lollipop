@@ -1,4 +1,3 @@
-@media (min-width: 768px) {
 
     .Footer {
         display: flex;
@@ -7,7 +6,9 @@
         height: 100%;
         background-color:hsl(355, 48%, 79%);
         font-family: Roboto;
-        border-color: 2px solid purple;
+        justify-content: center;
+        box-sizing: border-box;
+        
 
         .Adress,
         .Hours,
@@ -15,50 +16,66 @@
         .Logo {
             margin: 32px auto;
             text-align: center;
-            line-height: 30px;
+            line-height: 25px;
 
             p{
-                font-size: 12;
+                font-size: 12px;
             }
 
             h3{
-                margin-bottom: 1rem;
+                margin-bottom: 0.5rem;
                 font-size: 20px;
                 font-weight: bold;
+                text-transform: uppercase;
             }
         }
 
         .Adress{
-            .icon_facebook{
-                background-image: url(/images/facebook-icon.svg);
-                width: 252.05px;
-                height: 135.37px;
-            }
-            .icon_instagram{
-                background-image: url(/images/instagram.png );
-                width: 252.05px;
-                height: 135.37px;
+
+            .icons{
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                margin-top: 1rem;
+
+                .icon_facebook{
+                    background-image: url(/images/icon_facebook.svg);
+                    background-repeat: no-repeat;
+                    width: 30px;
+                    height: 30px;
+                }
+                .icon_instagram{
+                    background-image: url(/images/icon_instagram.svg);
+                    background-repeat: no-repeat;
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
 
         .Hours{
             .opening_days{
-                margin-bottom: 9px;
+                margin-top: 0rem;
             }
         }
 
         .Logo {
-            background-image: url(/images/Icon_Image.png);
+            background-image: url(/images/footer_logo.svg);
             background-repeat: no-repeat;
             width: 252.05px;
             height: 135.37px;
+            margin-top: 3rem;
         }
 
         .NewsLetter{
             text-align: left;
                 
             ::placeholder {
+                font-family: Roboto;
                 color: #707070;
+                padding-left: 23px;
+                font-size: 20px;
+                
             }
 
             input{
@@ -88,12 +105,96 @@
         }
     }
 
+
+
+@media (min-width: 480px) and (max-width: 1024px) {
+
+
+    .Footer{
+
+        .Adress,
+        .Hours,
+        .NewsLetter,
+        .Logo {
+            line-height: 25px;
+            
+            p{
+                font-size: 12px;
+            }
+
+            h3{
+                margin-bottom: 0.5rem;
+                font-size: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+        
+        .Logo {
+            background-image: url(/images/footer_icon_ipad.svg);
+            background-repeat: no-repeat;
+            width: 194.52px;
+            height: 102.264px;
+            margin-top: 3rem;
+        }
+ 
+        .NewsLetter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            ::placeholder {
+                text-align: center;
+                padding: 0;
+            }
+
+            input{
+                width: 236px;
+                height: 32px;
+                margin-top: 17.2px;
+            }
+
+            button{
+                text-align: center;
+                margin-top: 18.5px;
+                
+            }
+        }
+
+    }
 }
-@media (min-width: 480px) and (max-width: 768px) {
-}
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 760px) {
    
+    .Footer{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1.4rem;
+       padding: 1rem;
+       
+       .Adress,
+        .Hours,
+        .NewsLetter,
+        .Logo {
+            margin: 0;
+            p{
+                font-size: 12px;
+            }
 
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
 
+       .Logo {
+            order: 5;
+            margin-left: 1.6rem;
+        }
+    }
     
 }
+ 

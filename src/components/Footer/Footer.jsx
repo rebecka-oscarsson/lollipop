@@ -3,15 +3,15 @@ function Footer() {
     return (
         <div className={styles.Footer}>
             <div className={styles.Adress}>
-                <h3>HITTA TILL OSS</h3>
+                <h3>Hitta till oss</h3>
                 <p>Storgatan 1</p>
                 <p>123 45 Stockholm</p>
                 <p>Lilla Torg</p>
                 <p>211 33 Malmö</p>
 
-                <div>
-                    <span className={styles.icon_facebook}> </span>
-                    <span className={styles.icon_instagram}> </span>
+                <div className={styles.icons}>
+                    <div className={styles.icon_facebook}/> 
+                    <div className={styles.icon_instagram}/>
                 </div>
             </div>
             <div className={styles.Hours}>
