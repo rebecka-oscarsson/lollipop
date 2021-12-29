@@ -4,7 +4,7 @@
 .MealWrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: auto;
     width: 100%;
     background: url('../../images/pokequeenwallpaper.svg');
     background-position-y: 140px;
@@ -59,7 +59,7 @@
 //Desktop
 @media (min-width: 769px) {
     .MealWrapper {
-        min-height: 100vh;
+        min-height: auto;
         width: 100%;
         background-color: $white;
         background-size: cover;
@@ -94,7 +94,7 @@
     .MealWrapper {
         background-position-y: 140px;
         background-position-x: -20px;
-
+        min-height: auto;
         .MealCardContainer {
             .MealCard1 {
                 flex-grow: 1;
