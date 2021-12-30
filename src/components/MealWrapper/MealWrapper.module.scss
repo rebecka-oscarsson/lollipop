@@ -67,6 +67,7 @@
         background-position-x: 0px;
         .MealwrapparHeader {
             margin-top: 250px;
+            text-transform: none;
         }
 
         .MealCardContainer {
@@ -95,6 +96,7 @@
         background-position-y: 140px;
         background-position-x: -20px;
         min-height: auto;
+        .MealwrapparHeader {text-transform: none;}
         .MealCardContainer {
             .MealCard1 {
                 flex-grow: 1;
