@@ -46,11 +46,13 @@
                 .MealCardText {
                     margin-bottom: 0px;
                     margin-top: 0px;
-                    line-height: 20px;
+                    line-height: 1.7em;
                 }
                 .MealCardPrice {
                     color: $secondary;
                     font-weight: bold;
+                    font-size: $p-price-size;
+                    margin-top: 23px;
                 }
             }
         }
@@ -96,7 +98,9 @@
         background-position-y: 140px;
         background-position-x: -20px;
         min-height: auto;
-        .MealwrapparHeader {text-transform: none;}
+        .MealwrapparHeader {
+            text-transform: none;
+        }
         .MealCardContainer {
             .MealCard1 {
                 flex-grow: 1;
