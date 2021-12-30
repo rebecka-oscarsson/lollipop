@@ -1,6 +1,8 @@
 // color variables
 $primary: #e3afb3;
 $secondary: #e34342;
+// This accent color is not the same as in the design-assets
+// we changed it for better accessability
 $accent: #39a29b;
 $darkgrey: rgba(0, 0, 0, 0.2);
 $grey: #707070;
@@ -36,7 +38,9 @@ $p-price-size: 24px;
 $h4-h5-h6-font-size: 20px;
 $h4-h5-h6-font-weight: bold;
 
-//meal--wrapper and footer
+// meal--wrapper and footer
+// Font-size is a bit too small to be comfortable to read
+// We recommend using 15px or higher on ALL text
 $p-font-size: 12px;
 $p-font-weight: normal;
 
