@@ -13,10 +13,15 @@ $btn-active: #707070a3;
 // font sizes and weights
 $font-family-everywhere: 'Roboto', sans-serif;
 
-$h1-font-size: 96px;
+$h1-font-size-mobile: 38px;
+$h1-font-size-tablet: 50px;
+$h1-font-size-desktop: 96px;
+ 
 $h1-font-weight: bold;
 
 $h2-font-size: 48px;
+
+
 $h2-font-weight: bold;
 $h2-font-weight-menu: normal;
 
@@ -26,8 +31,13 @@ $h3-font-weight: bold;
 $h4-h5-h6-font-size: 20px;
 $h4-h5-h6-font-weight: bold;
 
+//meal--wrapper and footer
 $p-font-size: 12px;
-$p-font-weight: normal;
+$p-font-weight: normal; 
+
+//text under the logo
+$p-sub-heading-tablet: 40px;
+$p-sub-heading-desktop: 48px;
 
 // cookies--disclaimer
 $cookie-disclaimer-font-size-desktop: 30px;
