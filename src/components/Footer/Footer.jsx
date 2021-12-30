@@ -11,8 +11,8 @@ function Footer() {
                 <p>211 33 Malmö</p>
 
                 <div className={styles.icons}>
-                    <div className={styles.icon_facebook}/> 
-                    <div className={styles.icon_instagram}/>
+                    <div className={styles.icon_facebook} />
+                    <div className={styles.icon_instagram} />
                 </div>
             </div>
             <div className={styles.Hours}>
@@ -33,11 +33,13 @@ function Footer() {
             <div className={styles.Logo}></div>
             <div className={styles.NewsLetter}>
                 <h3>Nyhetsbrev</h3>
-                <p>Vill du ha unika deals?<br />
+                <p>
+                    Vill du ha unika deals?
+                    <br />
                     Signa upp dig på vårat nyhetsbrev här!
                 </p>
-                <input type='text' placeholder='namn@mail.se' />
-                <button>Prenumerera</button>
+                <input type="text" placeholder="namn@mail.se" />
+                <button className="primary-btn">Prenumerera</button>
             </div>
         </div>
     )
