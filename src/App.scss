@@ -23,7 +23,9 @@ h3 {
     font-weight: bold;
 }
 
-p {font-size: $p-font-size;}
+p {
+    font-size: $p-font-size;
+}
 
 .primary-btn {
     background-color: $accent;
