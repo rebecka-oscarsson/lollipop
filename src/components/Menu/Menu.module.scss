@@ -54,10 +54,12 @@
             justify-content: flex-end;
 
             .MenuLinesOpen {
-                height: 50px;
+                height: 60px;
                 width: 50px;
 
                 &:hover {
+                    cursor: pointer;
+
                     .LineOpen1,
                     .LineOpen2 {
                         background-color: red;
@@ -102,6 +104,8 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+
+                cursor: pointer;
 
                 .LineClosed1,
                 .LineClosed2,
