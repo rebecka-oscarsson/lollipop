@@ -1,5 +1,5 @@
 import styles from './MealWrapper.module.scss'
-import foodPhoto from '../../images/foodPhoto.jpg'
+import foodPhoto from '../../images/pokebowl1.png'
 function MealWrapper() {
     return (
         <section className={styles.MealWrapper}>
