@@ -4,7 +4,6 @@
     width: 100%;
     height: 100%;
     background-color: hsl(355, 48%, 79%);
-    font-family: Roboto;
     justify-content: center;
     box-sizing: border-box;
 
@@ -68,7 +67,6 @@
         text-align: left;
 
         ::placeholder {
-            font-family: Roboto;
             color: #707070;
             padding-left: 23px;
             font-size: 20px;
