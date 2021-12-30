@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     clip-path: url(#tablet-or-mobile);
-    background-image: url(../../images/pokebowl.png);
+    background-image: url(../../images/eiliv-sonas-aceron-ILTMskYdGIM-unsplash.png);
     background-repeat: no-repeat;
     background-position: left -20vw top 50vh;
     background-size: 130vw;
@@ -70,8 +70,8 @@
 //tablet
 @media (min-width: 480px) and (orientation: portrait) {
     .LandingPage {
-        background-image: url(../../images/pokebowl1.png),
-            url(../../images/pokebowl.png);
+        background-image: url(../../images/food-photographer-david-fedulov-Sekm9_nC2BM-unsplash.png),
+            url(../../images/eiliv-sonas-aceron-ILTMskYdGIM-unsplash.png);
         background-position: left -10vw bottom -8vh, right -5vw bottom -8vh;
         background-size: 63vw, 58vw;
         p {
@@ -91,8 +91,8 @@
         min-height: 111vh;
         justify-content: flex-end;
         clip-path: url(#desktop);
-        background-image: url(../../images/pokebowl1.png),
-            url(../../images/pokebowl.png);
+        background-image: url(../../images/food-photographer-david-fedulov-Sekm9_nC2BM-unsplash.png),
+            url(../../images/eiliv-sonas-aceron-ILTMskYdGIM-unsplash.png);
         background-position: left -6vw bottom -4vh, right -3vw bottom -5vh;
         background-size: auto 50vh, auto 90vh;
         header {
