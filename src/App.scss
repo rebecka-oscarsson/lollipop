@@ -7,20 +7,23 @@ body {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: $h1-font-size-mobile;
     font-weight: bold;
     color: $secondary;
     text-align: center;
 }
 
 h2 {
+    font-size: $h2-font-size;
     font-weight: bold;
     color: $secondary;
-    font-size: 38px;
 }
 h3 {
+    font-size: $h3-font-size;
     font-weight: bold;
 }
+
+p {font-size: $p-font-size;}
 
 .primary-btn {
     background-color: $accent;
@@ -49,10 +52,7 @@ h3 {
 
 @media (min-width: 480px) and (max-width: 768px) {
     h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 40px;
+        font-size: $h1-font-size-mobile;
     }
 }
 
@@ -60,9 +60,6 @@ h3 {
 
 @media (min-width: 769px) {
     h1 {
-        font-size: 96px;
-    }
-    h2 {
-        font-size: 48px;
+        font-size: $h1-font-size-desktop;
     }
 }
