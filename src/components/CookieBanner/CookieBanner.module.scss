@@ -11,7 +11,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-
+        position: fixed;
+        bottom: 0;
         padding: 1rem 2.5rem;
         background-color: $cookieGrey;
         width: 100%;
