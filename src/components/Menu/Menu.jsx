@@ -30,7 +30,7 @@ function Menu() {
                             <li className={styles.MenuItem}>Take Away</li>
                         </ul>
                     </nav>
-                    <button className={styles.BookTableBtn}>Boka bord</button>
+                    <button className="primary-btn">Boka bord</button>
                 </div>
             ) : (
                 <div className={styles.MenuClosed}>

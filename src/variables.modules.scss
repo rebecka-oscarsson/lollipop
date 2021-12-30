@@ -1,8 +1,10 @@
 // color variables
 $primary: #e3afb3;
 $secondary: #e34342;
-$accent: #79d1ca;
-$darkgrey: rgba(0, 0, 0, 0.78);
+// This accent color is not the same as in the design-assets
+// we changed it for better accessability
+$accent: #39a29b;
+$darkgrey: rgba(0, 0, 0, 0.2);
 $grey: #707070;
 $lightgrey: #c3c3c3;
 $white: #ffff;
@@ -13,21 +15,38 @@ $btn-active: #707070a3;
 // font sizes and weights
 $font-family-everywhere: 'Roboto', sans-serif;
 
-$h1-font-size: 96px;
+$h1-font-size-mobile: 38px;
+$h1-font-size-tablet: 50px;
+$h1-font-size-desktop: 96px;
+
+$h1-font-size-mobile-rem: 2.375rem;
+$h1-font-size-tablet-rem: 3.125rem;
+$h1-font-size-desktop-rem: 6rem;
+
 $h1-font-weight: bold;
 
 $h2-font-size: 48px;
+
 $h2-font-weight: bold;
 $h2-font-weight-menu: normal;
 
 $h3-font-size: 24px;
 $h3-font-weight: bold;
 
+$p-price-size: 24px;
+
 $h4-h5-h6-font-size: 20px;
 $h4-h5-h6-font-weight: bold;
 
+// meal--wrapper and footer
+// Font-size is a bit too small to be comfortable to read
+// We recommend using 15px or higher on ALL text
 $p-font-size: 12px;
 $p-font-weight: normal;
+
+//text under the logo
+$p-sub-heading-tablet: 40px;
+$p-sub-heading-desktop: 48px;
 
 // cookies--disclaimer
 $cookie-disclaimer-font-size-desktop: 30px;

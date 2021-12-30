@@ -18,13 +18,13 @@
         flex-basis: 0;
         text-align: center;
     }
-    h2 {
+    p {
         display: none;
         font-weight: normal;
         margin: 0;
     }
     h1 {
-        margin: 0 0.3em 0.3em 0;
+        margin: 1em 0 1em 0;
     }
     header {
         flex-grow: 1;
@@ -70,11 +70,14 @@
 //tablet
 @media (min-width: 480px) and (orientation: portrait) {
     .LandingPage {
-        background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
+        background-image: url(../../images/pokebowl1.png),
+            url(../../images/pokebowl.png);
         background-position: left -10vw bottom -8vh, right -5vw bottom -8vh;
         background-size: 63vw, 58vw;
-        h2 {
+        p {
             display: block;
+            font-size: $p-sub-heading-tablet;
+            color: $secondary;
         }
         .arrow {
             margin-bottom: 4vh;
@@ -88,7 +91,8 @@
         min-height: 111vh;
         justify-content: flex-end;
         clip-path: url(#desktop);
-        background-image: url(../../images/pokebowl1.png), url(../../images/pokebowl.png);
+        background-image: url(../../images/pokebowl1.png),
+            url(../../images/pokebowl.png);
         background-position: left -6vw bottom -4vh, right -3vw bottom -5vh;
         background-size: auto 50vh, auto 90vh;
         header {
@@ -101,8 +105,10 @@
         .promotionText {
             flex-grow: 1;
         }
-        h2 {
+        p {
             display: block;
+            font-size: $p-sub-heading-desktop;
+            color: $secondary;
         }
         .arrow {
             margin-bottom: 10vh;
