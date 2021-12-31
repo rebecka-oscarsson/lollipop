@@ -1,8 +1,12 @@
-# `Project Goal`
+## `Project Goal`
 
 This project aimed to create a working website from a finished design. The design can be found in design assets.
 
-# Getting Started with Create React App
+### `Link to live deployment`
+
+https://nifty-blackwell-8beed5.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
