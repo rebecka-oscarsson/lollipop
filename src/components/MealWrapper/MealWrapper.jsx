@@ -1,5 +1,5 @@
 import styles from './MealWrapper.module.scss'
-import foodPhoto from '../../images/food-photographer-david-fedulov-Sekm9_nC2BM-unsplash.png'
+import foodPhoto from '../../images/food-photographer-david-fedulov-Sekm9_nC2BM-unsplash2.png'
 function MealWrapper() {
     return (
         <section className={styles.MealWrapper}>
