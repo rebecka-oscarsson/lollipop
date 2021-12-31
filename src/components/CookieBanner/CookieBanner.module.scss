@@ -1,12 +1,99 @@
-@media (min-width: 768px) {
+@import '../../variables.modules.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 100px) {
     .CookieBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         position: fixed;
         bottom: 0;
-        background-color: grey;
+        padding: 1rem 2.5rem;
+        background-color: $cookieGrey;
         width: 100%;
+        line-height: 28px;
+        gap: 1rem;
+
+        p {
+            font-size: 20px;
+        }
+
+        span {
+            color: #e34342;
+            text-decoration: underline;
+            margin-left: 10px;
+
+            &:before {
+                content: '\a';
+                white-space: pre;
+            }
+        }
+
+        // Same styles apply to all screen sizes
+        .CookiesBtn {
+            // Reset btn-styles
+            border: none;
+
+            // Add general styles
+            font-family: $font-family-everywhere;
+            text-transform: capitalize;
+            background-color: $accent;
+            color: white;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 25px;
+            width: 234px;
+            height: 49px;
+
+            &:hover {
+                text-decoration: underline;
+                background-color: $btn-hover;
+            }
+
+            &:active {
+                text-decoration: none;
+                background-color: $btn-active;
+            }
+        }
     }
 }
-@media (min-width: 480px) and (max-width: 768px) {
+
+@media (min-width: 768px) {
+    .CookieBanner {
+        span {
+            &:before {
+                content: '\a';
+                white-space: pre;
+            }
+        }
+
+        p {
+            white-space: nowrap;
+        }
+    }
 }
-@media (max-width: 480px) {
+
+@media (min-width: 1200px) {
+    .CookieBanner {
+        padding: 1rem;
+        justify-content: space-between;
+        flex-direction: row;
+        span {
+            margin-left: 10px;
+
+            &:before {
+                content: '';
+                white-space: pre;
+            }
+        }
+
+        p {
+            white-space: nowrap;
+        }
+    }
 }
