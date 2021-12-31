@@ -19,7 +19,7 @@ function LandingPage() {
                         media="(min-width:481px)"
                         srcSet={logo}
                     />
-                    <img src={logoFallback} alt="poké queen logo" />
+                    <img src={logoFallback} alt="poké queen logo" width="637" height="125"/>
                 </picture>
                 <p>Om du vill vara trendig - och äta gott!</p>
             </header>
@@ -28,7 +28,7 @@ function LandingPage() {
                 <button className="primary-btn">Boka nu</button>
             </section>
             <div className={styles.arrowContainer}>
-                <img src={arrow} className={styles.arrow} alt="pil nedåt" />
+                <img src={arrow} className={styles.arrow} alt="pil nedåt" height="50" width="32.6"/>
             </div>
             <svg width="0" height="0">
                 {' '}
