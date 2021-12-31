@@ -17,7 +17,7 @@ function CookieBanner() {
                 onClick={() =>
                     setTimeout(() => {
                         setDisplay(false)
-                    }, 500)
+                    }, 550)
                 }
             >
                 Jag förstår
