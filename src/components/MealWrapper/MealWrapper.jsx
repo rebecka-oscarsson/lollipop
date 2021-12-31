@@ -12,8 +12,8 @@ function MealWrapper() {
                         <img
                             className={styles.MealCardPic}
                             src={foodPhoto}
-                            width="180px"
-                            height="180px"
+                            width="180"
+                            height="180"
                             alt="Ohana Bowl"
                         />
                     </div>
@@ -33,8 +33,8 @@ function MealWrapper() {
                         <img
                             className={styles.MealCardPic}
                             src={foodPhoto}
-                            width="180px"
-                            height="180px"
+                            width="180"
+                            height="180"
                             alt="Opae Bowl"
                         />
                     </div>
@@ -54,8 +54,8 @@ function MealWrapper() {
                         <img
                             className={styles.MealCardPic}
                             src={foodPhoto}
-                            width="180px"
-                            height="180px"
+                            width="180"
+                            height="180"
                             alt="Kamalii Bowl"
                         />
                     </div>
