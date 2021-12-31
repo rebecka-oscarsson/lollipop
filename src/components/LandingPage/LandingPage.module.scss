@@ -29,7 +29,8 @@
     header {
         flex-grow: 1;
         img {
-            max-width: 83vw;
+            width: 83vw;
+            height: auto;
         }
     }
     .promotionText {
@@ -99,7 +100,8 @@
             flex-grow: 3;
             margin-bottom: auto; //this pushes the header to the top of the page
             img {
-                max-width: 70vw;
+                width: 70vw;
+                height:auto;
             }
         }
         .promotionText {
