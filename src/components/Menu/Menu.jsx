@@ -10,6 +10,7 @@ function Menu() {
                 <div className={styles.MenuOpen}>
                     <div className={styles.ButtonWrapper}>
                         <button
+                            aria-label="Close menu"
                             className={styles.MenuLinesOpen}
                             onClick={() => setMenuOpen(false)}
                         >
@@ -35,6 +36,7 @@ function Menu() {
             ) : (
                 <div className={styles.MenuClosed}>
                     <button
+                        aria-label="Open menu"
                         className={styles.MenuLinesClosed}
                         onClick={() => setMenuOpen(true)}
                     >
